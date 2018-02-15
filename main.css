@@ -1,0 +1,182 @@
+@font-face{ 
+	font-family: 'MyBellota';
+    src: url('assets/bellota.woff');
+}
+
+body {
+    background-color: rgb(238, 236, 228);
+    display: flex;
+    justify-content: center;
+    font-family: 'MyBellota';
+}
+
+.page {
+    background-color: rgb(145, 145, 145);
+    width: 55vw;
+    height: auto;
+    border-radius: 20px;
+    border: 3px solid #15c5bd;
+    -webkit-box-shadow: 0px 0px 18px 11px rgba(59, 87, 79, 0.75);
+    -moz-box-shadow: 0px 0px 18px 11px rgba(59, 87, 79, 0.75);
+    box-shadow: 0px 0px 18px 11px rgba(59, 87, 79, 0.75);
+    padding: 0px;
+}
+
+/* FORMULAIRE */
+
+header {
+    width: 55vw;
+    height: 38vh;
+    background-color:rgb(145, 145, 145) ;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+header h4 {
+    text-align: center;
+    color: #303030;
+ }
+
+#logo {
+    margin-top: -1vh;
+    margin-left: 3vw;
+    width: 40%;
+    height: auto;
+    float: left;
+}
+
+#title {
+    float: right;
+    padding-right: 10%;
+    padding-top: 5%;
+    font-size: 150%;
+
+
+}
+
+.formulaire {
+    width: 100%;
+}
+
+.Coordonnées {
+    display: flex;
+    width: 55vw;
+    height: 24vh;
+    background-color: #303030;
+    justify-content: center;
+    align-items: center;
+    border-top: 3px solid #15c5bd ;
+    color: white;   
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.label {
+    float: left;
+    width: 40%;
+    height: 100%;
+    font-size: 20px;
+    line-height: 4vh;
+    text-align: right;
+    padding-right: 50px;
+}
+
+.error {
+    text-align: right;
+    justify-content: flex-end;
+    color: red;
+    
+   
+}
+
+.input {
+    float: right;
+    width: 55%;
+    height: 100%;
+    padding-left: 10px;
+}
+
+#country-input{
+    width: 245px;
+}
+
+.Sujet {
+    background-color: rgb(145, 145, 145);
+    width: auto;
+    height: 10vh;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    border-top: 3px solid #15c5bd;
+    border-bottom: 3px solid #15c5bd;
+
+}
+
+.Sujet h3 {
+    font-size: 200%;
+}
+
+.left {
+    float: left;
+    height: auto;
+    width: 45%;
+}
+
+.right {
+    float:right;
+    height: auto;
+    width: 45%;
+    margin-left: 10%
+}
+
+.message {
+    display: block;
+    padding-top: 20px;
+    justify-content: center;
+    text-align: center;
+    width: 55vw;
+    height: 22vh;
+    background-color:#303030;
+    border-bottom: 3px solid #15c5bd;
+    padding-bottom: 70px;
+    color: white;
+}
+
+.message p {
+    font-weight: bold;
+    font-size: 150%;
+}
+
+#champmess {
+    width: 40vw;
+    height: 100px;
+    font-size: 200%;
+}
+
+#button {
+    margin-top: 30px;
+}
+    
+option {
+    width: 10vw;
+}
+
+#copyright {
+    padding-top: 10px;
+    text-align: center;
+    align-items: center;
+}
+
+/* REPONSE AU FORMULAIRE */
+
+.reponse {
+    padding: 0px 30px 30px 30px;
+    line-height: 30px;
+    color: #043a37;
+    font-weight: 600;   
+}
+
+.reponse h2 {
+    color: black;
+    text-decoration: underline;
+}
