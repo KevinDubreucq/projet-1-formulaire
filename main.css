@@ -3,6 +3,11 @@
     src: url('assets/bellota.woff');
 }
 
+.error {
+    background: red;
+    color : #fff;
+}
+
 body {
     background-color: rgb(238, 236, 228);
     display: flex;
@@ -76,7 +81,7 @@ header h4 {
     width: 40%;
     height: 100%;
     font-size: 20px;
-    line-height: 4vh;
+    line-height: 29px;
     text-align: right;
     padding-right: 50px;
 }
